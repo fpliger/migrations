@@ -1,0 +1,45 @@
+.. -*- restructuredtext -*-
+
+Migrations, data migrations
+====================================
+
+Introduction
+------------
+
+Migrations goal is to provide a set of modules and tools to easily export, migrate and report data between different formats and backends. 
+
+The features for release 0.1, at the moment are:
+
+Data sources and destinations supported:
+
+* SQLAlchemy Databases supported
+* CSV
+* JSON
+
+Extra-features:
+
+* simple data filtering
+
+TODO Features:
+
+* data compression
+* simple command line tool
+* [simple UI tool]
+
+
+IMPORTANT NOTE
+--------------
+
+Migrations IS NOT READY AND SHOULD NOT BE USED FOR PRODUCTION! It's in a very early development stage and lacks in functionality and tests!!
+
+API
+---
+
+Migrator
+--------
+
+Main migration class that handles all the migrations functionality. 
+
+
+delegators
+----------
